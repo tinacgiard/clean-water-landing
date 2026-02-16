@@ -1,0 +1,139 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+  color: #333;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: white;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.donate-btn {
+  background: #f7941d;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  min-height: 80vh;
+}
+
+.hero-text {
+  width: 50%;
+  padding: 60px;
+  background: #ead6a6;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #1e2f57;
+}
+
+.hero-text p {
+  margin-bottom: 25px;
+}
+
+/* Form */
+.hero-form {
+  display: flex;
+  max-width: 400px;
+}
+
+.hero-form input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+}
+
+.hero-form button {
+  background: #f7941d;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+/* Hero image */
+.hero-image {
+  width: 50%;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* STORY SECTION */
+.story {
+  display: flex;
+  padding: 60px 40px;
+  background: white;
+}
+
+.story-image,
+.story-text {
+  width: 50%;
+}
+
+.story-image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.story-text {
+  padding: 0 40px;
+}
+
+.story-text h2 {
+  margin-bottom: 20px;
+}
+
+/* CTA */
+.cta {
+  text-align: center;
+  padding: 80px 20px;
+  background: #1e2f57;
+  color: white;
+}
+
+.cta p {
+  margin: 15px 0 30px;
+}
+
+.cta-btn {
+  background: #f7941d;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+}
