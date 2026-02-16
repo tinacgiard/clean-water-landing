@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clean Water Project</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">Charity:Water</div>
+    <a href="#" class="donate-btn">Donate Now</a>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>
+        Give Clean Water in Seconds.
+        See the Impact for Years.
+      </h1>
+
+      <p>
+        Donate in seconds and see how your gift brings clean
+        water and real change to communities in need.
+      </p>
+
+      <div class="hero-form">
+        <input type="email" placeholder="Enter your email">
+        <button>Subscribe</button>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="images/hero.jpg" alt="Water well">
+    </div>
+  </section>
+
+  <!-- STORY SECTION -->
+  <section class="story">
+    <div class="story-image">
+      <img src="images/story.jpg" alt="Community story">
+    </div>
+
+    <div class="story-text">
+      <h2>A Story of Change</h2>
+      <p>
+        Access to clean water changes everything. Families spend
+        less time collecting water and more time building their
+        future. Children stay healthier and attend school more
+        often.
+      </p>
+
+      <p>
+        Your support helps communities build sustainable water
+        systems that last for years.
+      </p>
+    </div>
+  </section>
+
+  <!-- CTA SECTION -->
+  <section class="cta">
+    <h2>Be Part of the Change</h2>
+    <p>
+      Join thousands of supporters helping communities gain
+      access to clean water.
+    </p>
+    <a href="#" class="cta-btn">Donate Today</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Clean Water Initiative</p>
+  </footer>
+
+</body>
+</html>
